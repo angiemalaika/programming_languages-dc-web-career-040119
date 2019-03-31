@@ -4,7 +4,7 @@ require 'pry'
   # your code here	  
   new_hash = {} #new variable equal to an empty hash
 
-   languages.each do |style, description| # 
+   languages.each do |style, description| # iteratingthrough #the languages hash
     description.each do |lang, type|
       if new_hash.has_key?(lang)
         new_hash[lang][:style] << style
